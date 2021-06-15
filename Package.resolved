@@ -174,11 +174,11 @@
       },
       {
         "package": "Casbin",
-        "repositoryURL": "https://github.com/xiaobeiswift/SwiftCasbin.git",
+        "repositoryURL": "https://github.com/casbin/SwiftCasbin.git",
         "state": {
-          "branch": "master",
-          "revision": "a2c500aa44522a2ed956737555e53aedf5258b13",
-          "version": null
+          "branch": null,
+          "revision": "ab289f150be6e328878a22727128c6ec572760e0",
+          "version": "1.0.0"
         }
       },
       {
