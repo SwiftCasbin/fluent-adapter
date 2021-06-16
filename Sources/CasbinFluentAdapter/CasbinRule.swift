@@ -45,6 +45,7 @@ public final class  CasbinRule:Fluent.Model {
 
 extension CasbinRule {
     public struct Migration :Fluent.Migration {
+        public init() {}
         public func prepare(on database: Database) -> EventLoopFuture<Void> {
             database.schema(CasbinRule.schema)
                 .id()
