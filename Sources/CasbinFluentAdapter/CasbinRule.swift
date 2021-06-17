@@ -50,6 +50,7 @@ extension CasbinRule {
             database.schema(CasbinRule.schema)
                 .id()
                 .field("p_type", .string, .required)
+                .field("v0", .string, .required)
                 .field("v1", .string, .required)
                 .field("v2", .string, .required)
                 .field("v3", .string, .required)
